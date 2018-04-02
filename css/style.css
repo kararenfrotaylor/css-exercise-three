@@ -13,12 +13,16 @@ h3 {
   font-weight: 400;
 }
 
-.container, h1 {
-  font-size: 1.3em;
-  font-weight: 600;
+.container {
   background-color: #d2d2d2;
   margin: 0 auto;
   width: 420px;
+}
+
+.container h1 {
+  font-size: 1.3em;
+  font-weight: 600;
+
 }
 
 nav {
@@ -38,6 +42,9 @@ nav {
   padding: 12px;
   float: left;
   width: 90%;
+}
+
+.location {
   border-bottom: 1px solid grey;
 }
 
@@ -57,7 +64,5 @@ nav {
   float: right;
   padding: 12.5px;
   width: 10%;
-  background-color: #d2d2d2;
   margin-top: 13px;
-  border-bottom: 1px solid grey;
 }
